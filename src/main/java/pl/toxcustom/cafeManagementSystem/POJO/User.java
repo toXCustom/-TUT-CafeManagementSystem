@@ -8,6 +8,9 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 @NamedQuery(name = "User.findByEmailId", query = "SELECT u FROM User u WHERE u.email=:email")
+@NamedQuery(name = "User.getAllUser", query = "SELECT new pl.toxcustom.cafeManagementSystem.wrapper.UserWrapper(u.id, u.name, u.email, u.contactNumber, u.status) FROM User u WHERE u.role='user'")
+@NamedQuery(name = "User.updateStatus", query = "UPDATE USER u SET u.status=:status WHERE u.id=:id")
+@NamedQuery(name = "User.getAllAdmin", query = "SELECT u.email FROM User u WHERE u.role='admin'")
 
 @Data
 @Entity
