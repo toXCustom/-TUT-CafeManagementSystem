@@ -13,7 +13,7 @@ import pl.toxcustom.cafeManagementSystem.JWT.CustomerUsersDetailsService;
 import pl.toxcustom.cafeManagementSystem.JWT.JwtFilter;
 import pl.toxcustom.cafeManagementSystem.JWT.JwtUtil;
 import pl.toxcustom.cafeManagementSystem.POJO.User;
-import pl.toxcustom.cafeManagementSystem.constents.CafeConstants;
+import pl.toxcustom.cafeManagementSystem.constants.CafeConstants;
 import pl.toxcustom.cafeManagementSystem.dao.UserDao;
 import pl.toxcustom.cafeManagementSystem.service.UserService;
 import pl.toxcustom.cafeManagementSystem.utils.CafeUtils;

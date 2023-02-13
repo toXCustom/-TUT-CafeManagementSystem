@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import pl.toxcustom.cafeManagementSystem.JWT.JwtFilter;
 import pl.toxcustom.cafeManagementSystem.POJO.Category;
 import pl.toxcustom.cafeManagementSystem.POJO.Product;
-import pl.toxcustom.cafeManagementSystem.constents.CafeConstants;
+import pl.toxcustom.cafeManagementSystem.constants.CafeConstants;
 import pl.toxcustom.cafeManagementSystem.dao.ProductDao;
 import pl.toxcustom.cafeManagementSystem.service.ProductService;
 import pl.toxcustom.cafeManagementSystem.utils.CafeUtils;

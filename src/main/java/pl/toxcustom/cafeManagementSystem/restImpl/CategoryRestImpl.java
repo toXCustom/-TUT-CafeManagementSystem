@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 import pl.toxcustom.cafeManagementSystem.POJO.Category;
-import pl.toxcustom.cafeManagementSystem.constents.CafeConstants;
+import pl.toxcustom.cafeManagementSystem.constants.CafeConstants;
 import pl.toxcustom.cafeManagementSystem.rest.CategoryRest;
 import pl.toxcustom.cafeManagementSystem.service.CategoryService;
 import pl.toxcustom.cafeManagementSystem.utils.CafeUtils;

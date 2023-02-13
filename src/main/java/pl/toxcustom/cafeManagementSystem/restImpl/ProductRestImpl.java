@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
-import pl.toxcustom.cafeManagementSystem.constents.CafeConstants;
+import pl.toxcustom.cafeManagementSystem.constants.CafeConstants;
 import pl.toxcustom.cafeManagementSystem.rest.ProductRest;
 import pl.toxcustom.cafeManagementSystem.service.ProductService;
 import pl.toxcustom.cafeManagementSystem.utils.CafeUtils;

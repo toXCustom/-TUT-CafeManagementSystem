@@ -8,7 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import pl.toxcustom.cafeManagementSystem.JWT.JwtFilter;
 import pl.toxcustom.cafeManagementSystem.POJO.Category;
-import pl.toxcustom.cafeManagementSystem.constents.CafeConstants;
+import pl.toxcustom.cafeManagementSystem.constants.CafeConstants;
 import pl.toxcustom.cafeManagementSystem.dao.CategoryDao;
 import pl.toxcustom.cafeManagementSystem.service.CategoryService;
 import pl.toxcustom.cafeManagementSystem.utils.CafeUtils;
